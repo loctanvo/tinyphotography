@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    min-height: 100vh;
+    min-height: 100%;
+    background-image: url("images/tiny.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+.about {
+    background-color: #FFF;
+    padding: 30px;
+}
+
+.about-title {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.about-text {
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title-separator {
+    border-top: 10px solid !important;
+    width: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
