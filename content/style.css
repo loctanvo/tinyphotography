@@ -69,6 +69,25 @@ h1 {
     font-size: 0.8rem;
 }
 
+.logo-area {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #FFF;
+    border-left: 200px solid transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.logo-area .logo-area-content {
+    text-align: center;
+    top: 100px;
+    left: -90px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
 @keyframes email-foreground {
     from {
         color: RGBA(245, 152, 156, 1);
