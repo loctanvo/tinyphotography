@@ -40,3 +40,40 @@ h1 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.about-email,
+.about-email:hover,
+.about-email:focus {
+    background-color: RGBA(17, 24, 54, 1);
+    border-color: RGBA(17, 24, 54, 1);
+    font-family: "Courier New";
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+.about-email {
+    color: RGBA(245, 152, 156, 1);
+}
+
+.about-email:hover,
+.about-email:focus {
+    animation-name: email-foreground;
+    animation-duration: 0.5s;
+    color: RGBA(174, 207, 194, 1);
+    outline: none;
+}
+
+.copied-popover {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+@keyframes email-foreground {
+    from {
+        color: RGBA(245, 152, 156, 1);
+    }
+    to {
+        color: RGBA(174, 207, 194, 1);
+    }
+}
