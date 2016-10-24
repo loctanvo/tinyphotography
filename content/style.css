@@ -17,7 +17,7 @@ h1 {
 }
 
 .about {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 30px;
 }
 
@@ -70,23 +70,11 @@ h1 {
     font-size: 0.8rem;
 }
 
-.logo-area {
-    width: 0;
-    height: 0;
-    border-bottom: 200px solid #FFF;
-    border-left: 200px solid transparent;
+.logo {
     position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.logo-area .logo-area-content {
-    text-align: center;
-    top: 100px;
-    left: -90px;
-    position: relative;
-    width: 75px;
-    height: 75px;
+    right: 1rem;
+    bottom: 1rem;
+    border: 0.5rem solid #FFF;
 }
 
 @keyframes email-foreground {
